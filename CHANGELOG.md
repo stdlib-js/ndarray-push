@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`50ec01b`](https://github.com/stdlib-js/stdlib/commit/50ec01b7e6b99e92e033199246bae378a10ee479) - **style:** fix missing space _(by Athan Reines)_
 -   [`a799baf`](https://github.com/stdlib-js/stdlib/commit/a799bafe59b868a07c99266ca494074a8037ce67) - **docs:** update examples _(by Athan Reines)_
 -   [`178c4a3`](https://github.com/stdlib-js/stdlib/commit/178c4a33f559e1bdf0e6d3f2c4eb95b59ecd7210) - **docs:** update description _(by Athan Reines)_
 -   [`59376ad`](https://github.com/stdlib-js/stdlib/commit/59376adf8a58a9cbf9a54dac8ee242e004b86631) - **refactor:** update error messages _(by Athan Reines)_
