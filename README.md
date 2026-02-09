@@ -52,13 +52,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import push from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-push@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-push/tags). For example,
+
+```javascript
 import push from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-push@v0.1.1-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { assign } from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-push@v0.1.1-esm/index.mjs';
+import { assign } from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-push@esm/index.mjs';
 ```
 
 #### push( x, ...values )
@@ -133,7 +138,7 @@ The function accepts the following arguments:
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-discrete-uniform@esm/index.mjs';
 import ndarray2array from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-to-array@esm/index.mjs';
-import push from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-push@v0.1.1-esm/index.mjs';
+import push from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-push@esm/index.mjs';
 
 var opts = {
     'dtype': 'generic'
